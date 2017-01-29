@@ -44,34 +44,36 @@
   </div>
  </body>
 </html>
+<ul class="nav navbar-nav navbar-right">
+ <li>
+  <a href="login.html">
+   Login
+  </a>
+ </li>
+</ul>
 <!-- /.navbar-collapse -->
 <div id="wrap">
  <div class="jumbotron">
   <div class="container">
-   <div class="page-header">
-    <img alt="Responsive image" class="header-img-responsive" src="static/img/Brook_Trout_small.jpg">
-    </img>
-   </div>
    <br>
-    <p>
-     Welcome to the Pistrang Family home page.  Please pardon our appearance as we undergo some upgrades.
-    </p>
-    <br>
-     <p>
-      Check out
-      <u>
-       <a href="recipes/index.html">
-        All the Best: Recipes From Home
-       </a>
-      </u>
-      , a collection of Pistrang Family recipes.
-     </p>
-    </br>
+    <div class="container">
+     <form action="login.html" class="form-signin" method="post" role="form">
+      <input name="csrfmiddlewaretoken" type="hidden" value="xb1v1rh3dM85CznMMR3MutBhLlVonve2"/>
+      <input autofocus="" class="form-control" id="id_username" maxlength="254" name="username" placeholder="Email address" required="" type="text">
+       <input autocomplete="off" class="form-control" id="id_password" name="password" placeholder="Password" required="" type="password">
+       </input>
+      </input>
+     </form>
+    </div>
    </br>
   </div>
  </div>
- <div class="container">
- </div>
+</div>
+<button class="btn btn-lg btn-primary btn-block" type="submit">
+ Sign in
+</button>
+<input name="next" type="hidden" value=""/>
+<div class="container">
 </div>
 <div id="footer">
  <div class="container">
