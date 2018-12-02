@@ -186,18 +186,6 @@ input[type="radio"] {
   box-sizing: border-box;
 }
 
-input[type="search"] {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-  -webkit-appearance: textfield;
-}
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   padding: 0;
@@ -1883,12 +1871,6 @@ label {
   font-weight: bold;
 }
 
-input[type="search"] {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -2743,10 +2725,6 @@ input[type="button"].btn-block {
 
 .glyphicon-music:before {
   content: "\e002";
-}
-
-.glyphicon-search:before {
-  content: "\e003";
 }
 
 .glyphicon-heart:before {
